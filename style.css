@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ body {
+    background-image: url(nature.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-groups {
+    background-color: white;
+    width: 350px;
+    height: 390px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 170px;
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.in {
+    border-radius: 7px;
+    padding-left: 10px;
+    border: 0;
+    outline: 0;
+    margin: 10px 0;
+    width: 300px;
+    height: 40px;
+    background-color: #eaeaea;
+
+}
+
+.input1 + p {
+    margin-right: 100px;
+    font-size: 13px;
+}
+button {
+    margin-top: 30px;
+    width: 120px;
+    height: 35px;
+    border: 0;
+    outline: 0;
+    background-color: green;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 1s;
+    z-index: 5;
+
+}
+.input-field + button {
+    margin-right: 20px;
+}
+.input-field {
+    height: 210px;
+}
+
+.underline {
+    width: 30px;
+    height: 5px;
+    border-radius: 6px;
+    margin-left: 165px;
+    margin-top: 5px;
+    background-color: green;
+}
+h1 {
+    color: green;
+    font-size: 35px;
+}
+
+.disable {
+    background-color: #eaeaea;
+}
+
+.green {
+    background-color: green;
+}
+.position {
+    position: relative;
+    right: 50px;
+    top: 5px;
+}
